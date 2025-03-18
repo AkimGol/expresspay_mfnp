@@ -1,0 +1,281 @@
+.container {
+    margin-top: 15px;
+}
+
+.header {
+    border-bottom: 2px solid #e8e8e8;
+    width: 100%;
+}
+
+.footer {
+    background-color: #383838;
+    font-family: 'OpenSansLight';
+    font-size: 14.58px;
+    color: #fff;
+    width: 100%;
+}
+
+.footer .wrap-lm p {
+    font-family: 'OpenSansLight';
+    font-size: 14.58px;
+    color: #fff;
+}
+
+.button-orange,
+.button-blue {
+    color: #ffffff !important;
+    font-family: 'OpenSansBold' !important;
+    padding: 14px 31px;
+    display: inline-block;
+    font-size: 14.06px !important;
+    text-align: center;
+    background-color: #ff9000;
+    cursor: pointer;
+    border: 1px solid #ffb14b;
+    transition: background-color 0.6s;
+    float: none;
+    outline: none;
+    margin-top: 8px;
+}
+
+.button-blue {
+    background-color: #44a9d5;
+    border: 1px solid #98d0e8;
+}
+
+.button-action {
+    width: 150px;
+}
+
+.button-orange:hover,
+.button-orange:focus,
+.button-blue:hover,
+.button-blue:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-orange:hover {
+    background-color: #ff7200;
+    text-decoration: none;
+}
+
+.button-blue {
+    background-color: #44a9d5;
+    border: 1px solid #98d0e8;
+}
+
+.button-blue:hover {
+    background-color: #288ebb;
+    text-decoration: none;
+}
+
+.button-blue.small:hover,
+.button-orange.small:hover {
+    border: 0;
+}
+
+.label {
+    font-family: 'OpenSansLight';
+    text-align: right;
+    font-size: 14.58px;
+    color: #0c0c0c;
+    font-weight: normal;
+    width: auto;
+    margin-right: 0;
+    top: 0;
+    display: block;
+    margin-top: 8px;
+}
+
+a {
+    color: #288ebb;
+}
+
+.header-table {
+    width: 100%;
+    background-color: #ececec;
+    border-bottom: 1px solid #d3d3d3;
+    color: #333;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    min-height: 18px;
+    line-height: 18px;
+    padding: .5em .6em .4em .6em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.header-table div {
+    color: #0c0c0c;
+    text-transform: uppercase;
+    font-size: 12.5px;
+    font-family: 'OpenSansSemiBold';
+    text-align: center;
+    font-weight: bold;
+}
+
+.action-link-title-grid {
+    margin: 10px;
+}
+
+.content .table-row {
+    border-bottom: 1px solid #d3d3d3;
+    min-height: 40px;
+    width: 100%;
+    display: flex;
+}
+
+.content .table-row div {
+    padding: 10px .6em;
+}
+
+a.icon.icon_edit {
+    background-position: 0 -135px;
+}
+
+a.icon.icon_stop {
+    background-position: 0px -210px;
+}
+
+a.icon.icon_delete {
+    background-position: 3px -16px;
+}
+
+i.icon.icon_add {
+    background-position: -1px -158px;
+}
+
+a.icon.icon_on {
+    background-position: -1px -111px;
+}
+
+.back_link a {
+    color: #288ebb;
+}
+
+.back_link {
+    margin-top: 10px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.add_pay_method_link {
+    text-align: left;
+}
+
+.add_pay_method_link a {
+    color: #288ebb;
+}
+
+.home-page {
+    margin-top: 25px;
+}
+
+input[type='text'] {
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #d3d3d3;
+    border-radius: 0;
+    color: #0c0c0c;
+    outline: 0;
+    margin: 10px 0 10px 0;
+}
+
+label {
+    width: 100%;
+    ;
+    margin: 15px 0 10px 0;
+    text-align: right;
+}
+
+.payment_setting_save_page .row select {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px 0 10px 0;
+}
+
+.payment_setting_save_page .row input[type="checkbox"] {
+    margin: 25px 0 15px 0;
+}
+
+.other_setting {
+    display: none;
+}
+
+.content .table-row div {
+    padding: 6px 10px;
+}
+
+.text-empty-table p {
+    font-size: 24px;
+}
+
+.table-row div p {
+    font-family: 'OpenSansRegular';
+    font-size: 14.58px;
+}
+
+.table-row div p.active {
+    color: #3a9200;
+}
+
+.table-row div p.diactive {
+    color: #f21515;
+}
+
+.home-page .wrap-menu ul {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+}
+
+.home-page .wrap-menu ul li {
+    width: 24%;
+    display: flex;
+    float: none;
+}
+
+.navbar {
+    height: 74px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.09);
+    z-index: 1;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+}
+
+hr {
+    width: 100%;
+}
+
+.navbar .current {
+    color: #0c0c0c;
+    font-family: 'OpenSansSemiBold';
+    font-size: 16.67px;
+    text-decoration: underline;
+}
+
+.navbar>div {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navbar div a {
+    color: #888;
+    font-size: 16.67px;
+    font-family: 'OpenSansRegular';
+}
+
+.home-page .wrap-menu ul {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+}

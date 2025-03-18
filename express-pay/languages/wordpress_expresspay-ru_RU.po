@@ -1,0 +1,528 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ExpressPay Payment Module\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-30 09:54+0000\n"
+"PO-Revision-Date: 2022-03-02 06:21+0000\n"
+"Last-Translator: \n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: wordpress_expresspay"
+
+#: src/class.expresspay.payment.php:233
+msgid ""
+"<h3>Account added to the E-POS system for payment</h3>\n"
+"\t\t\t\t<h4>Your order number: ##epos_code##</h4>\n"
+"\t\t\t\t<table style=\"width: 100%;text-align: left;\"><tbody><tr><td "
+"valign=\"top\" style=\"text-align:left;\">\n"
+"\t\t\t\tYou need to make a payment in any system that allows you to pay "
+"through ERIP (banking service points, \n"
+"\t\t\t\tATMs, payment terminals, Internet banking systems, client banking, "
+"etc.).\n"
+"\t\t\t\t<br/> 1. To do this, in the list of ERIP services, go to the section:"
+" <b> Settlement System (ERIP)\n"
+"\t\t\t\t -&gt; E-POS Service-&gt; E-POS - payment for goods and services</b>"
+"\n"
+"\t\t\t\t <br/>2. In the Code field, enter <b>##epos_code##</b> and click "
+"\"Continue\"\n"
+"\t\t\t\t <br/>3. Check the correctness of the information\n"
+"\t\t\t\t <br/>4. Make a payment.</td>\n"
+"\t\t\t\t <td style=\"text-align: center;padding: 40px 20px 0 0;vertical-"
+"align: middle\">\n"
+"\t\t\t\t <p>##qr_code##</p><p><b>Scan the QR code to pay</b></p></td></tr>"
+"</tbody></table>"
+msgstr ""
+"<h3>Счет добавлен в систему E-POS для оплаты</h3>\n"
+"\t\t\t\t<h4>Номер вашего заказа: ##epos_code##</h4>\n"
+"\t\t\t\t<table style=\"width: 100%;text-align: left;\"><tbody><tr><td "
+"valign=\"top\" style=\"text-align:left;\">\n"
+"\t\t\t\tОплату необходимо произвести в любой системе, позволяющей "
+"производить оплату через ЕРИП (точки обслуживания банков,\n"
+"Банкоматы, платежные терминалы, системы интернет-банкинга, клиент-банкинг и "
+"др.).\n"
+"\t\t\t\t<br/> 1. Для этого в списке услуг ЕРИП перейдите в раздел: <b> "
+"Расчетная система (ЕРИП)\n"
+"\t\t\t\t -&gt; Услуга E-POS-&gt;E-POS - оплата товаров и услуг</b>\n"
+"\t\t\t\t <br/>2. В поле Лицевой счет введите <b>##epos_code##</b> и нажмите "
+"\"Продолжить\"\n"
+"\t\t\t\t <br/>3. Проверить правильность информации\n"
+"\t\t\t\t <br/>4. Произвести платеж.</td>\n"
+"\t\t\t\t <td style=\"text-align: center;padding: 40px 20px 0 0;vertical-"
+"align: middle\">\n"
+"\t\t\t\t <p>##qr_code##</p><p><b>Отсканируйте QR-код для оплаты</b></p></td>"
+"</tr></tbody></table>"
+
+#: src/class.expresspay.payment.php:193
+msgid ""
+"<h3>Account added to the ERIP system for payment</h3>\n"
+"        <h4>Your order number: ##order_id##</h4>\n"
+"        <table style=\"width: 100%;text-align: left;\"><tbody><tr><td "
+"valign=\"top\" style=\"text-align:left;\">\n"
+"        You need to make a payment in any system that allows you to pay "
+"through ERIP (items banking services, ATMs,\n"
+"        payment terminals, Internet banking systems, client banking, etc.).\n"
+"        <br/> 1. To do this, in the list of ERIP services go to the section:"
+"<br/><b>##erip_path##</b>\n"
+"        <br/> 2. Next, enter the order number <b>##order_id##</b> and click "
+"\"Continue\"\n"
+"        <br/> 3. Check if the information is correct. \n"
+"        <br/> 4. Make a payment.</td> "
+msgstr ""
+"<h3>Счет добавлен в систему ЕРИП для оплаты</h3>\n"
+"        <h4>Номер вашего заказа: ##order_id##</h4>\n"
+"        <table style=\"width: 100%;text-align: left;\"><tbody><tr><td "
+"valign=\"top\" style=\"text-align:left;\">\n"
+"Оплату необходимо произвести в любой системе, позволяющей оплачивать через "
+"ЕРИП (товары банковские услуги, банкоматы,\n"
+"         платежные терминалы, системы интернет-банкинга, клиент-банкинг и др."
+").\n"
+"        <br/> 1. Для этого в списке услуг ЕРИП перейдите в раздел:<br/><b>"
+"##erip_path##</b>\n"
+"        <br/> 2. Далее введите номер заказа <b>##order_id##</b> и нажмите "
+"\"Продолжить\"\n"
+"        <br/> 3. Проверьте правильность информации. \n"
+"        <br/> 4. Произвести платеж.</td> "
+
+#: views/admin/admin_list_invoices_emty.php:30
+msgid "Account list is empty"
+msgstr "Список счетов пуст"
+
+#: views/admin/admin_list_invoices.php:21
+#: views/admin/admin_list_invoices_emty.php:21
+msgid "Account number"
+msgstr "Номер счета"
+
+#: views/admin/payment_method.php:61
+msgid "Active"
+msgstr "Активный"
+
+#: views/admin/payment_method.php:34 views/admin/payment_method_empty.php:21
+msgid "Add a payment method"
+msgstr "Добавить метод оплаты"
+
+#: views/admin/admin_payment_settings.php:86
+msgid "Address for notifications"
+msgstr "Адрес для уведомлений"
+
+#: views/admin/admin_payment_settings.php:154
+msgid "Allowed to change address"
+msgstr "Разрешено изменять адрес плательщика"
+
+#: views/admin/admin_payment_settings.php:164
+msgid "Allowed to change amount"
+msgstr "Разрешено изменять сумму оплаты"
+
+#: views/admin/admin_payment_settings.php:143
+msgid "Allowed to change name"
+msgstr "Разрешено изменять ФИО плательщика"
+
+#: views/payment_form.php:27 views/payment_form.php:103
+#: views/admin/admin_list_invoices.php:22
+#: views/admin/admin_list_invoices_emty.php:22
+msgid "Amount"
+msgstr "Сумма"
+
+#: src/class.expresspay.payment.php:173
+msgid "An error occurred during the billing process"
+msgstr "Произошла ошибка при выставлении счета"
+
+#: views/admin/admin_payment_settings.php:223
+msgid "API address"
+msgstr "Адрес API"
+
+#: views/admin/admin_payment_settings.php:64
+msgid "API key"
+msgstr "API ключ"
+
+#: views/admin/admin_list_invoices.php:40
+msgid "Awaiting payment"
+msgstr "Ожидает оплаты"
+
+#: views/payment_form.php:89 views/payment_form.php:132
+#: views/admin/admin_list_invoices.php:17
+#: views/admin/admin_list_invoices_emty.php:17
+#: views/admin/admin_payment_settings.php:17 views/admin/payment_method.php:31
+#: views/admin/payment_method_empty.php:17
+msgid "Back"
+msgstr "Назад"
+
+#: views/admin/admin_payment_settings.php:256
+msgid "Cancel"
+msgstr "Отменить"
+
+#: views/admin/admin_list_invoices.php:52
+msgid "Canceled"
+msgstr "Отменен"
+
+#: views/payment_form.php:90
+msgid "Checkout"
+msgstr "Оформить"
+
+#: views/admin/admin_list_invoices.php:23
+#: views/admin/admin_list_invoices_emty.php:23
+msgid "Date of creation"
+msgstr "Дата создания"
+
+#: views/admin/payment_method.php:75
+msgid "Delete"
+msgstr "Удалить"
+
+#: views/admin/payment_method.php:63 views/admin/payment_method.php:71
+msgid "Disable"
+msgstr "Отключить"
+
+#: views/admin/admin_list_invoices.php:37
+msgid "During"
+msgstr "В процессе"
+
+#: views/payment_form.php:74
+msgid "E-mail"
+msgstr "E-mail"
+
+#: views/admin/admin_payment_settings.php:43 views/admin/payment_method.php:56
+msgid "E-POS"
+msgstr "E-POS"
+
+#: views/admin/admin_payment_settings.php:210
+msgid "E-POS service code"
+msgstr "Код E-POS"
+
+#: views/admin/payment_method.php:67
+msgid "Edit"
+msgstr "Редактировать"
+
+#: views/admin/payment_method.php:73
+msgid "Enable"
+msgstr "Включить"
+
+#: views/admin/admin_payment_settings.php:108
+msgid "Enable digital signature for notifications"
+msgstr "Использовать цифровую подпись для уведомлений"
+
+#: views/payment_form.php:30
+msgid "Enter amount"
+msgstr "Введите сумму"
+
+#: views/admin/admin_payment_settings.php:227
+msgid "Enter API address"
+msgstr "Введите адрес API"
+
+#: views/admin/admin_payment_settings.php:68
+msgid "Enter API key"
+msgstr "Введите ключ API"
+
+#: views/payment_form.php:77
+msgid "Enter e-mail"
+msgstr "Введите e-mail"
+
+#: views/admin/admin_payment_settings.php:214
+msgid "Enter E-POS service code"
+msgstr "Введите код E-POS"
+
+#: views/payment_form.php:85
+msgid "Enter mobile number"
+msgstr "Введите номер мобильного телефона"
+
+#: views/payment_form.php:52
+msgid "Enter name"
+msgstr "Введите имя"
+
+#: views/admin/admin_payment_settings.php:249
+msgid "Enter Path along the ERIP branch"
+msgstr "Введите путь по ветке ЕРИП"
+
+#: views/payment_form.php:69
+msgid "Enter purpose of payment"
+msgstr "Введите назначение платежа"
+
+#: views/payment_form.php:60
+msgid "Enter second name"
+msgstr "Введите отчество"
+
+#: views/admin/admin_payment_settings.php:101
+msgid "Enter secret word"
+msgstr "Введите секретное слово"
+
+#: views/admin/admin_payment_settings.php:123
+msgid "Enter secret word for notifications"
+msgstr "Введите секретное слово для уведомлений"
+
+#: views/admin/admin_payment_settings.php:79
+msgid "Enter service number"
+msgstr "Введите номер услуги"
+
+#: views/admin/admin_payment_settings.php:204
+msgid "Enter service provider code"
+msgstr "Введите код услуги E-POS"
+
+#: views/payment_form.php:44
+msgid "Enter surname"
+msgstr "Введите фамилию"
+
+#: views/admin/admin_payment_settings.php:238
+msgid "Enter test API address"
+msgstr "Введите адрес тестового API"
+
+#: views/admin/admin_payment_settings.php:28
+msgid "Enter the name of the payment method"
+msgstr "Введите название метода оплаты"
+
+#: views/admin/admin_payment_settings.php:41 views/admin/payment_method.php:50
+msgid "ERIP"
+msgstr "ЕРИП"
+
+#: views/admin/admin_list_invoices.php:43
+msgid "Expired"
+msgstr "Истек"
+
+#: expresspay.payment.php:69 expresspay.payment.php:70
+msgid "Express Payments"
+msgstr "Экспресс Платежи"
+
+#. Name of the plugin
+msgid "ExpressPay Payment Module"
+msgstr "Экспресс Платежи Платежный модуль"
+
+#: views/payment_form.php:34
+msgid "Further"
+msgstr "Далее"
+
+#: views/admin/admin_list_invoices.php:12
+#: views/admin/admin_list_invoices_emty.php:12
+#: views/admin/admin_payment_settings.php:12 views/admin/home_options.php:32
+#: views/admin/payment_method.php:26 views/admin/payment_method_empty.php:12
+msgid "Help"
+msgstr "Помощь"
+
+#: expresspay.payment.php:79 expresspay.payment.php:80
+#: views/admin/admin_list_invoices.php:3
+#: views/admin/admin_list_invoices_emty.php:3
+#: views/admin/admin_payment_settings.php:3 views/admin/home_options.php:23
+#: views/admin/payment_method.php:17 views/admin/payment_method_empty.php:3
+msgid "Home"
+msgstr "Главная"
+
+#. Author URI of the plugin
+msgid "https://express-pay.by"
+msgstr "https://express-pay.by"
+
+#. URI of the plugin
+msgid "https://express-pay.by/cms-extensions/wordpress"
+msgstr "https://express-pay.by/cms-extensions/wordpress"
+
+#: views/admin/admin_payment_settings.php:42 views/admin/payment_method.php:53
+msgid "Internet-acquiring"
+msgstr "Интернет-эквайринг"
+
+#: views/admin/home_options.php:40
+msgid "Invoices and"
+msgstr "Счета и "
+
+#: expresspay.payment.php:88 expresspay.payment.php:89
+#: views/admin/admin_list_invoices.php:6
+#: views/admin/admin_list_invoices_emty.php:6
+#: views/admin/admin_payment_settings.php:6 views/admin/home_options.php:26
+#: views/admin/payment_method.php:20 views/admin/payment_method_empty.php:6
+msgid "Invoices and payemnts"
+msgstr "Счета и платежи"
+
+#. Author of the plugin
+msgid "LLC «TriIncom»"
+msgstr "ООО «ТриИнком»"
+
+#: views/payment_form.php:82
+msgid "Mobile number"
+msgstr "Номер мобильного"
+
+#: views/payment_form.php:49 views/admin/payment_method.php:38
+#: views/admin/payment_method_empty.php:26
+msgid "Name"
+msgstr "Имя"
+
+#: views/payment_method_empty.php:11
+msgid "No payment methods found"
+msgstr "Способы оплаты не найдены"
+
+#: views/admin/payment_method.php:41 views/admin/payment_method_empty.php:29
+msgid "Options"
+msgstr "Опции"
+
+#: views/admin/admin_list_invoices.php:49
+msgid "Paid in part"
+msgstr "Оплачен частично"
+
+#: views/admin/admin_list_invoices.php:46
+msgid "Paid up"
+msgstr "Оплачен"
+
+#: views/admin/admin_list_invoices.php:55
+msgid "Paid with a bank card"
+msgstr "Оплачен банковской картой"
+
+#: views/admin/admin_payment_settings.php:245
+msgid "Path along the ERIP branch"
+msgstr "Путь по ветке ЕРИП"
+
+#: views/payment_form.php:133
+msgid "Pay"
+msgstr "Оплатить"
+
+#: views/admin/home_options.php:40
+msgid "payemnts"
+msgstr "платежи"
+
+#: views/admin/admin_list_invoices.php:25
+#: views/admin/admin_list_invoices_emty.php:25
+msgid "Payment date"
+msgstr "Дата оплаты"
+
+#: views/payment_form.php:97
+msgid "Payment method"
+msgstr "Метод оплаты"
+
+#: views/admin/admin_payment_settings.php:24
+msgid "Payment method name"
+msgstr "Название метода оплаты"
+
+#: views/admin/admin_payment_settings.php:35
+msgid "Payment method type"
+msgstr "Тип метода оплаты"
+
+#: views/payment_method_empty.php:7
+msgid "Payment using the Express payments service"
+msgstr "Оплата с помощью сервиса «Экспресс Платежи»"
+
+#: views/payment_form.php:7
+msgid "Payment using the «Express payments service»"
+msgstr "Оплата с помощью сервиса «Экспресс Платежи»"
+
+#. Description of the plugin
+msgid ""
+"Place the plugin shortcode at any of your pages and start to accept payments "
+"in WordPress instantly"
+msgstr ""
+"Разместите шорткод плагина на любой из своих страниц чтобы мгновенно начать "
+"принимать платежи в WordPress."
+
+#: views/payment_form.php:66
+msgid "Purpose of payment"
+msgstr "Назначение платежа"
+
+#: views/payment_form.php:143
+msgid "Repeat"
+msgstr "Повторить"
+
+#: views/admin/admin_payment_settings.php:255
+msgid "Save"
+msgstr "Сохранить"
+
+#: src/class.expresspay.payment.php:211
+msgid "Scan the QR code to pay"
+msgstr "Отсканируйте QR-код для оплаты"
+
+#: views/payment_form.php:57
+msgid "Second name"
+msgstr "Отчество"
+
+#: views/admin/admin_payment_settings.php:97
+msgid "Secret word"
+msgstr "Секретное слово"
+
+#: views/admin/admin_payment_settings.php:119
+msgid "Secret word for notifications"
+msgstr "Секретное слово для уведомлений"
+
+#: views/admin/admin_payment_settings.php:40
+msgid "Select the type of payment method"
+msgstr "Выберите способ оплаты"
+
+#: views/admin/admin_payment_settings.php:174
+msgid "Send email notification to client"
+msgstr "Отправлять клиенту уведомление по электронной почте"
+
+#: views/admin/admin_payment_settings.php:185
+msgid "Send sms notification to the client"
+msgstr "Отправлять SMS-уведомление клиенту"
+
+#: views/admin/admin_payment_settings.php:75
+msgid "Service number"
+msgstr "Номер услуги"
+
+#: views/admin/admin_payment_settings.php:200
+msgid "Service provider code"
+msgstr "Код производителя услуг"
+
+#: views/admin/admin_header.php:9 views/admin/home_options.php:18
+msgid "Service «Express Payments»"
+msgstr "Сервис «Экспресс Платежи»"
+
+#: expresspay.payment.php:97 expresspay.payment.php:98
+#: expresspay.payment.php:106 expresspay.payment.php:107
+#: src/class.payment.settings.php:16 views/admin/admin_list_invoices.php:9
+#: views/admin/admin_list_invoices_emty.php:9
+#: views/admin/admin_payment_settings.php:9 views/admin/home_options.php:29
+#: views/admin/home_options.php:43 views/admin/payment_method.php:23
+#: views/admin/payment_method_empty.php:9
+msgid "Settings"
+msgstr "Настройки"
+
+#: views/admin/admin_payment_settings.php:133
+msgid "Show QR code"
+msgstr "Показывать QR-код"
+
+#: views/admin/admin_list_invoices.php:24
+#: views/admin/admin_list_invoices_emty.php:24
+#: views/admin/payment_method.php:40 views/admin/payment_method_empty.php:28
+msgid "Status"
+msgstr "Статус"
+
+#: views/payment_form.php:41
+msgid "Surname"
+msgstr "Фамилия"
+
+#: views/admin/admin_payment_settings.php:234
+msgid "Test API address"
+msgstr "Адрес тестового API"
+
+#: views/admin/admin_payment_settings.php:51
+msgid "Test mode"
+msgstr "Тестовый режим"
+
+#: src/class.expresspay.payment.php:164
+msgid "The invoice has been successfully paid!"
+msgstr "Счет успешно оплачен!"
+
+#: views/admin/payment_method_empty.php:34
+msgid "The list of payment methods is empty"
+msgstr "Список способов оплаты пуст"
+
+#: src/class.payment.settings.php:38
+msgid "To receive, add a payment method"
+msgstr "Для получения добавьте способ оплаты"
+
+#: views/admin/payment_method.php:39 views/admin/payment_method_empty.php:27
+msgid "Type of"
+msgstr "Тип"
+
+#: views/payment_form.php:128 views/payment_form.php:139
+msgid "Whait second..."
+msgstr "Подождите секунду..."
+
+#: views/admin/admin_footer.php:3 views/admin/home_options.php:51
+msgid "© All rights reserved | LLC «TriIncom»,"
+msgstr "© Все права защищены | ООО «ТриИнком»,"
+
+#: views/payment_form.php:84
+msgid "I agree with the "
+msgstr "Я согласен с условиями (публичной оферты)"
+
+#: views/payment_form.php:85
+msgid "public offer"
+msgstr "публичной оферты"

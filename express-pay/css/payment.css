@@ -1,0 +1,254 @@
+.expresspay-payment {
+    border: 1px solid #b8b8b8;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+	
+    font-style: normal;
+    font-weight: normal;
+}
+
+.expresspay-payment select {
+    width: 100%;
+}
+
+.expresspay-payment .confirm_btn {
+    background-color: #47afdc !important;
+    color: #ffffff !important;
+	border: 0 !important;
+    width: 100%; /* Растягиваем кнопку на всю ширину */
+	font-family: inherit;
+	font-size: 16px;
+    font-weight: bold;
+    font-style: normal !important;
+    /* margin-right: 10px; */
+    /* margin-left: 10px; */
+    padding: 10px;
+    text-align: center; /* Центрируем текст внутри */
+    display: block; /* Убедимся, что элемент занимает всю ширину */
+}
+
+.expresspay-payment-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.expresspay-payment-header .logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.expresspay-payment .row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 5px;
+    /* padding-left: 5px; */
+}
+
+#info_step {
+    display: block;
+}
+
+#info_step .label label {
+    display: none;
+}
+
+#info_step .payment-method {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    /* transition: all 0.3s ease-in-out; */
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+#info_step .payment-method.active {
+    background-color: #e0f0ff !important;
+}
+
+
+#info_step .payment-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+#info_step .payment-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#info_step .payment-method:last-child {
+    margin-bottom: 0;
+}
+#info_step .amount-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#info_step .amount-btn {
+    flex: 1; /* Растягивает каждую кнопку равномерно */
+    padding: 10px;
+    border: none;
+    background: white;
+    color: #47afdc;
+    border: 1px solid #47afdc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#info_step .amount-btn.active {
+    background: #47afdc;
+    color: white;
+}
+
+#info_step .field {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#info_step .field input {
+    color: black; /* Темный цвет текста */
+    width: 100%; /* Растягивает поле ввода */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#info_step .button-group {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+#info_step .payment-btn {
+    flex: 1;
+    padding: 10px;
+    background: white;
+    color: #47afdc;
+    border: 1px solid #47afdc;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    /* transition: 0.3s; */
+}
+
+#info_step .payment-btn.active {
+    background: #47afdc;
+    color: white;
+}
+
+#info_step .payment-btn:disabled {
+    background: #ccc;
+    border-color: #ccc;
+    color: white;
+    cursor: not-allowed;
+}
+
+#info_step .row.expresspay-agreement {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+#info_step .row.expresspay-agreement label {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    font-size: 16px;
+    white-space: nowrap; 
+}
+
+#info_step .row.expresspay-agreement input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin: 5px; 
+}
+
+#info_step .expresspay-agreement-link {
+    color: #47afdc;
+    text-decoration: underline;
+}
+
+#pay_step {
+    display: none;
+}
+
+#response_step {
+    display: none;
+}
+
+.expresspay-payment .row.back_link i {
+    cursor: pointer;
+    font-style: normal;
+}
+
+.expresspay-payment .row.back_link i:hover {
+    text-decoration: underline;
+}
+
+.expresspay-payment .row label {
+    font-style: normal;
+}
+
+.expresspay-payment-email,
+.expresspay-payment-phone {
+    display: none;
+}
+
+#response {
+    display: flex;
+    justify-content: center;
+    padding: 0 5px 0 5px;
+    width: 50%;
+}
+
+
+@media (max-width: 543px) {
+	.expresspay-payment-header {
+		grid-template-columns: auto;
+	}
+	.expresspay-payment-header .logo {
+		width: auto;
+		text-align: center;
+	}
+	.expresspay-payment .row .label {
+		display: none;
+	}
+	.expresspay-payment .row .field {
+		width: auto;
+	}
+	.expresspay-payment .pay_step .table div.row:last-child {
+		flex-direction: row;
+	}
+	.expresspay-payment .secont_step div.row:last-child,
+	.expresspay-payment .pay_step div.row:last-child {
+		flex-direction: column;
+	}
+	.expresspay-payment .secont_step div.row:last-child .confirm_btn,
+	.expresspay-payment .pay_step div.row:last-child  .confirm_btn {
+		margin-bottom: 20px;
+	}
+	.expresspay-payment .confirm_btn {
+		width: 100%;
+		margin-right: 0px;
+	}
+}

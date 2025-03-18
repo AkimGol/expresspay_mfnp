@@ -1,0 +1,485 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ExpressPay Payment Module\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-02 06:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: wordpress_expresspay"
+
+#: src/class.expresspay.payment.php:233
+msgid ""
+"<h3>Account added to the E-POS system for payment</h3>\n"
+"\t\t\t\t<h4>Your order number: ##epos_code##</h4>\n"
+"\t\t\t\t<table style=\"width: 100%;text-align: left;\"><tbody><tr><td "
+"valign=\"top\" style=\"text-align:left;\">\n"
+"\t\t\t\tYou need to make a payment in any system that allows you to pay "
+"through ERIP (banking service points, \n"
+"\t\t\t\tATMs, payment terminals, Internet banking systems, client banking, "
+"etc.).\n"
+"\t\t\t\t<br/> 1. To do this, in the list of ERIP services, go to the section:"
+" <b> Settlement System (ERIP)\n"
+"\t\t\t\t -&gt; E-POS Service-&gt; E-POS - payment for goods and services</b>"
+"\n"
+"\t\t\t\t <br/>2. In the Code field, enter <b>##epos_code##</b> and click "
+"\"Continue\"\n"
+"\t\t\t\t <br/>3. Check the correctness of the information\n"
+"\t\t\t\t <br/>4. Make a payment.</td>\n"
+"\t\t\t\t <td style=\"text-align: center;padding: 40px 20px 0 0;vertical-"
+"align: middle\">\n"
+"\t\t\t\t <p>##qr_code##</p><p><b>Scan the QR code to pay</b></p></td></tr>"
+"</tbody></table>"
+msgstr ""
+
+#: src/class.expresspay.payment.php:193
+msgid ""
+"<h3>Account added to the ERIP system for payment</h3>\n"
+"        <h4>Your order number: ##order_id##</h4>\n"
+"        <table style=\"width: 100%;text-align: left;\"><tbody><tr><td "
+"valign=\"top\" style=\"text-align:left;\">\n"
+"        You need to make a payment in any system that allows you to pay "
+"through ERIP (items banking services, ATMs,\n"
+"        payment terminals, Internet banking systems, client banking, etc.).\n"
+"        <br/> 1. To do this, in the list of ERIP services go to the section:"
+"<br/><b>##erip_path##</b>\n"
+"        <br/> 2. Next, enter the order number <b>##order_id##</b> and click "
+"\"Continue\"\n"
+"        <br/> 3. Check if the information is correct. \n"
+"        <br/> 4. Make a payment.</td> "
+msgstr ""
+
+#: views/admin/admin_list_invoices_emty.php:30
+msgid "Account list is empty"
+msgstr ""
+
+#: views/admin/admin_list_invoices.php:21
+#: views/admin/admin_list_invoices_emty.php:21
+msgid "Account number"
+msgstr ""
+
+#: views/admin/payment_method.php:61
+msgid "Active"
+msgstr ""
+
+#: views/admin/payment_method.php:34 views/admin/payment_method_empty.php:21
+msgid "Add a payment method"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:86
+msgid "Address for notifications"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:154
+msgid "Allowed to change address"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:164
+msgid "Allowed to change amount"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:143
+msgid "Allowed to change name"
+msgstr ""
+
+#: views/payment_form.php:27 views/payment_form.php:103
+#: views/admin/admin_list_invoices.php:22
+#: views/admin/admin_list_invoices_emty.php:22
+msgid "Amount"
+msgstr ""
+
+#: src/class.expresspay.payment.php:173
+msgid "An error occurred during the billing process"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:223
+msgid "API address"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:64
+msgid "API key"
+msgstr ""
+
+#: views/admin/admin_list_invoices.php:40
+msgid "Awaiting payment"
+msgstr ""
+
+#: views/payment_form.php:89 views/payment_form.php:132
+#: views/admin/admin_list_invoices.php:17
+#: views/admin/admin_list_invoices_emty.php:17
+#: views/admin/admin_payment_settings.php:17 views/admin/payment_method.php:31
+#: views/admin/payment_method_empty.php:17
+msgid "Back"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:256
+msgid "Cancel"
+msgstr ""
+
+#: views/admin/admin_list_invoices.php:52
+msgid "Canceled"
+msgstr ""
+
+#: views/payment_form.php:90
+msgid "Checkout"
+msgstr ""
+
+#: views/admin/admin_list_invoices.php:23
+#: views/admin/admin_list_invoices_emty.php:23
+msgid "Date of creation"
+msgstr ""
+
+#: views/admin/payment_method.php:75
+msgid "Delete"
+msgstr ""
+
+#: views/admin/payment_method.php:63 views/admin/payment_method.php:71
+msgid "Disable"
+msgstr ""
+
+#: views/admin/admin_list_invoices.php:37
+msgid "During"
+msgstr ""
+
+#: views/payment_form.php:74
+msgid "E-mail"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:43 views/admin/payment_method.php:56
+msgid "E-POS"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:210
+msgid "E-POS service code"
+msgstr ""
+
+#: views/admin/payment_method.php:67
+msgid "Edit"
+msgstr ""
+
+#: views/admin/payment_method.php:73
+msgid "Enable"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:108
+msgid "Enable digital signature for notifications"
+msgstr ""
+
+#: views/payment_form.php:30
+msgid "Enter amount"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:227
+msgid "Enter API address"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:68
+msgid "Enter API key"
+msgstr ""
+
+#: views/payment_form.php:77
+msgid "Enter e-mail"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:214
+msgid "Enter E-POS service code"
+msgstr ""
+
+#: views/payment_form.php:85
+msgid "Enter mobile number"
+msgstr ""
+
+#: views/payment_form.php:52
+msgid "Enter name"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:249
+msgid "Enter Path along the ERIP branch"
+msgstr ""
+
+#: views/payment_form.php:69
+msgid "Enter purpose of payment"
+msgstr ""
+
+#: views/payment_form.php:60
+msgid "Enter second name"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:101
+msgid "Enter secret word"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:123
+msgid "Enter secret word for notifications"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:79
+msgid "Enter service number"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:204
+msgid "Enter service provider code"
+msgstr ""
+
+#: views/payment_form.php:44
+msgid "Enter surname"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:238
+msgid "Enter test API address"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:28
+msgid "Enter the name of the payment method"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:41 views/admin/payment_method.php:50
+msgid "ERIP"
+msgstr ""
+
+#: views/admin/admin_list_invoices.php:43
+msgid "Expired"
+msgstr ""
+
+#: expresspay.payment.php:69 expresspay.payment.php:70
+msgid "Express Payments"
+msgstr ""
+
+#. Name of the plugin
+msgid "ExpressPay Payment Module"
+msgstr ""
+
+#: views/payment_form.php:34
+msgid "Further"
+msgstr ""
+
+#: views/admin/admin_list_invoices.php:12
+#: views/admin/admin_list_invoices_emty.php:12
+#: views/admin/admin_payment_settings.php:12 views/admin/home_options.php:32
+#: views/admin/payment_method.php:26 views/admin/payment_method_empty.php:12
+msgid "Help"
+msgstr ""
+
+#: expresspay.payment.php:79 expresspay.payment.php:80
+#: views/admin/admin_list_invoices.php:3
+#: views/admin/admin_list_invoices_emty.php:3
+#: views/admin/admin_payment_settings.php:3 views/admin/home_options.php:23
+#: views/admin/payment_method.php:17 views/admin/payment_method_empty.php:3
+msgid "Home"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://express-pay.by"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://express-pay.by/cms-extensions/wordpress"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:42 views/admin/payment_method.php:53
+msgid "Internet-acquiring"
+msgstr ""
+
+#: views/admin/home_options.php:40
+msgid "Invoices and"
+msgstr ""
+
+#: expresspay.payment.php:88 expresspay.payment.php:89
+#: views/admin/admin_list_invoices.php:6
+#: views/admin/admin_list_invoices_emty.php:6
+#: views/admin/admin_payment_settings.php:6 views/admin/home_options.php:26
+#: views/admin/payment_method.php:20 views/admin/payment_method_empty.php:6
+msgid "Invoices and payemnts"
+msgstr ""
+
+#. Author of the plugin
+msgid "LLC «TriIncom»"
+msgstr ""
+
+#: views/payment_form.php:82
+msgid "Mobile number"
+msgstr ""
+
+#: views/payment_form.php:49 views/admin/payment_method.php:38
+#: views/admin/payment_method_empty.php:26
+msgid "Name"
+msgstr ""
+
+#: views/payment_method_empty.php:11
+msgid "No payment methods found"
+msgstr ""
+
+#: views/admin/payment_method.php:41 views/admin/payment_method_empty.php:29
+msgid "Options"
+msgstr ""
+
+#: views/admin/admin_list_invoices.php:49
+msgid "Paid in part"
+msgstr ""
+
+#: views/admin/admin_list_invoices.php:46
+msgid "Paid up"
+msgstr ""
+
+#: views/admin/admin_list_invoices.php:55
+msgid "Paid with a bank card"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:245
+msgid "Path along the ERIP branch"
+msgstr ""
+
+#: views/payment_form.php:133
+msgid "Pay"
+msgstr ""
+
+#: views/admin/home_options.php:40
+msgid "payemnts"
+msgstr ""
+
+#: views/admin/admin_list_invoices.php:25
+#: views/admin/admin_list_invoices_emty.php:25
+msgid "Payment date"
+msgstr ""
+
+#: views/payment_form.php:97
+msgid "Payment method"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:24
+msgid "Payment method name"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:35
+msgid "Payment method type"
+msgstr ""
+
+#: views/payment_method_empty.php:7
+msgid "Payment using the Express payments service"
+msgstr ""
+
+#: views/payment_form.php:7
+msgid "Payment using the «Express payments service»"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Place the plugin shortcode at any of your pages and start to accept payments "
+"in WordPress instantly"
+msgstr ""
+
+#: views/payment_form.php:66
+msgid "Purpose of payment"
+msgstr ""
+
+#: views/payment_form.php:143
+msgid "Repeat"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:255
+msgid "Save"
+msgstr ""
+
+#: src/class.expresspay.payment.php:211
+msgid "Scan the QR code to pay"
+msgstr ""
+
+#: views/payment_form.php:57
+msgid "Second name"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:97
+msgid "Secret word"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:119
+msgid "Secret word for notifications"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:40
+msgid "Select the type of payment method"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:174
+msgid "Send email notification to client"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:185
+msgid "Send sms notification to the client"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:75
+msgid "Service number"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:200
+msgid "Service provider code"
+msgstr ""
+
+#: views/admin/admin_header.php:9 views/admin/home_options.php:18
+msgid "Service «Express Payments»"
+msgstr ""
+
+#: expresspay.payment.php:97 expresspay.payment.php:98
+#: expresspay.payment.php:106 expresspay.payment.php:107
+#: src/class.payment.settings.php:16 views/admin/admin_list_invoices.php:9
+#: views/admin/admin_list_invoices_emty.php:9
+#: views/admin/admin_payment_settings.php:9 views/admin/home_options.php:29
+#: views/admin/home_options.php:43 views/admin/payment_method.php:23
+#: views/admin/payment_method_empty.php:9
+msgid "Settings"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:133
+msgid "Show QR code"
+msgstr ""
+
+#: views/admin/admin_list_invoices.php:24
+#: views/admin/admin_list_invoices_emty.php:24
+#: views/admin/payment_method.php:40 views/admin/payment_method_empty.php:28
+msgid "Status"
+msgstr ""
+
+#: views/payment_form.php:41
+msgid "Surname"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:234
+msgid "Test API address"
+msgstr ""
+
+#: views/admin/admin_payment_settings.php:51
+msgid "Test mode"
+msgstr ""
+
+#: src/class.expresspay.payment.php:164
+msgid "The invoice has been successfully paid!"
+msgstr ""
+
+#: views/admin/payment_method_empty.php:34
+msgid "The list of payment methods is empty"
+msgstr ""
+
+#: src/class.payment.settings.php:38
+msgid "To receive, add a payment method"
+msgstr ""
+
+#: views/admin/payment_method.php:39 views/admin/payment_method_empty.php:27
+msgid "Type of"
+msgstr ""
+
+#: views/payment_form.php:128 views/payment_form.php:139
+msgid "Whait second..."
+msgstr ""
+
+#: views/admin/admin_footer.php:3 views/admin/home_options.php:51
+msgid "© All rights reserved | LLC «TriIncom»,"
+msgstr ""
